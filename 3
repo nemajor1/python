@@ -1,0 +1,175 @@
+5.
+words = input("Enter a list of words separated by commas: ").split(",") # Введите список слов через запятую:
+word_set = set(words)
+print("Number of words:", len(words)) # Количество слов:
+second_list = input("Enter a list of words with the same number of characters: ").split(",") # Введите список слов такого же количества символов:
+dictionary = dict(zip(words, second_list))
+print(dictionary)
+
+
+6.
+print('Выберите действие')
+print('+ - сложение')
+print('- - вычитание')
+print('* - умножение')
+print('/ - деление')
+print('^ - степень')
+print('md - модуль')
+print('rand - рандомное число')
+print('! - факториал')
+print('arccos - арккосинус')
+
+String = input()
+
+if (String == '+'):
+    def f(a, b):
+        return (a + b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == '-'):
+    def f(a, b):
+        return (a - b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == '*'):
+    def f(a, b):
+        return (a * b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == '/'):
+    def f(a, b):
+        return (a / b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == '^'):
+    def f(a, b):
+        return (a ** b)
+print('Введите числа а - основание, b - степень')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == 'md'):
+    def f(a, b):
+        return (a % b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == 'rand'):
+    def f(a, b):
+        return (random.randit(a,b))
+print('Введите диапозон')
+a1 = float(input())
+b1 = float(input())
+result = f(a1, b1)
+print(result)
+if (String == '!'):
+    def f(a):
+        return ( math.factorial(a))
+print('Введите число')
+a1 = float(input())
+result = f(a1)
+print(result)
+if (String == 'arccos')
+	def f()
+	print('Введите число')
+	a = float(input())
+    if -1 <= a <= 1:
+        print("Результат", math.acos(a))
+
+    else:
+        print("не соотвествует ОДЗ")
+		
+		
+		
+def first(**test): return test
+first = input("Введите список слов через запятую: ").split(",")
+first_set = set(first)
+print("Количество слов:", len(first))
+
+def second(**test): return test
+second = input("Введите второй список с тем же количеством слов через запятую: ").split(",")
+
+dictionary = dict(zip(first_set, second))
+print(dictionary)
+
+
+7.
+class Calc:
+    def summ(a, b):
+        return (a + b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = summ(a1, b1)
+print(result)
+    def sub(a, b):
+        return (a - b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = sub(a1, b1)
+print(result)
+    def com(a, b):
+        return (a * b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = com(a1, b1)
+print(result)
+    def div(a, b):
+        return (a / b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = div(a1, b1)
+print(result)
+    def st(a, b):
+        return (a ** b)
+print('Введите числа а - основание, b - степень')
+a1 = float(input())
+b1 = float(input())
+result = st(a1, b1)
+print(result)
+def md(a, b):
+        return (a % b)
+print('Введите числа')
+a1 = float(input())
+b1 = float(input())
+result = md(a1, b1)
+print(result)
+def rand(a, b):
+        return (random.randit(a,b))
+print('Введите диапозон')
+a1 = float(input())
+b1 = float(input())
+result = rand(a1, b1)
+print(result)
+def fac(a):
+        return ( math.factorial(a))
+print('Введите число')
+a1 = float(input())
+result = fac(a1)
+print(result)
+def arcc()
+	print('Введите число')
+	a = float(input())
+    if -1 <= a <= 1:
+        print("Результат", math.acos(a))
+
+    else:
+        print("не соотвествует ОДЗ")
