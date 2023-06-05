@@ -1,0 +1,88 @@
+3.
+print('Выберите действие')
+print('+ - сложение')
+print('- - вычитание')
+print('* - умножение')
+print('/ - деление')
+print('^ - степень')
+print('md - модуль')
+print('rand - рандомное число')
+print('! - факториал')
+print('arccos - арккосинус')
+String = input()
+if (String == '+'):
+    print('Введите a, b')
+    a = int (input())
+    b = int (input())
+    print(a + b)
+if (String == '-'):
+    print('Введите a, b')
+    a = int (input())
+    b = int (input())
+    print(a - b)
+if (String == '*'):
+    print('Введите a, b')
+    a = int (input())
+    b = int (input())
+    print(a * b)
+if (String == '/'):
+    print('Введите a, b')
+    a = int (input())
+    b = int (input())
+    print(a / b)
+if (String == '^'):
+    print('Введите a, b - степень')
+    a = int (input())
+    b = int (input())
+    print(a**b)
+if (String == 'md'):
+    print("Введите число:")
+    a = float(input())
+    print("Модуль числа")
+    b = float(input())
+    print("Result:", num1 % num2)
+if (String == 'rand')
+	print('Введите диапозон от a до b')
+	a = int(input())
+	b = int(input())
+	print("случайное значение [", a, ",", b, "]:", random.randint(a, b)
+if (String == '!')
+	print('Введите число')
+	a = int(input())
+	print("Факториал:", math.factorial(a))
+if (String == 'arccos')
+	print('Введите число')
+	a = float(input())
+    if -1 <= a <= 1:
+        print("Результат", math.acos(a))
+
+    else:
+        print("не соотвествует ОДЗ")
+		
+		
+		
+4.
+print("Enter three vegetable names:") // Запрос ввода трех названий овощей
+a = input().strip()
+b = input().strip()
+c = input().strip()
+
+// Вывод названий овощей в разных регистрах
+print("Низ: {}, {}, {}".format( a.lower(), b.lower(), c.lower()))
+print("Верх: {}, {}, {}".format( a.upper(), b.upper(), c.upper()))
+
+// Функция для преобразования первого символа в верхний регистр
+def capitalize_first(s):
+    return s[0].upper() + s[1:]
+
+// Вывод названий овощей с преобразованным первым символом
+print("Первый символ: {}, {}, {}".format(capitalize_first( a), capitalize_first(b), capitalize_first(c)))
+
+// Запрос количества каждого овоща
+print("Введите кол-во:")
+a1 = int(input())
+a2 = int(input())
+a3 = int(input())
+
+// Вывод количества каждого овоща
+print("Кол-во - {} ({}, {}), {} ({}, {}), {} ({}, {})".format( a, a1,  a.upper(), b, a2, b.upper(), c, a3, c.upper()))
